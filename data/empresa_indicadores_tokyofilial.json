@@ -1,7 +1,7 @@
 {
   "OUTUBRO": {
     "financeiro": false,
-    "qualidade": true,
+    "qualidade": false,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -14,7 +14,7 @@
   },
   "NOVEMBRO": {
     "financeiro": false,
-    "qualidade": true,
+    "qualidade": false,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -39,4 +39,5 @@
       "BARRA DO CORDA": true
     }
   }
+
 }
