@@ -89,7 +89,7 @@ except Exception as e:
     st.error(f"Erro ao carregar JSONs: {e}")
     st.stop()
 
-MESES = ["TRIMESTRE", "JULHO", "AGOSTO", "SETEMBRO"]
+MESES = ["TRIMESTRE", "OUTUBRO", "NOVEMBRO", "DEZEMBRO"]
 filtro_mes = st.radio("📅 Selecione o mês:", MESES, horizontal=True)
 
 def ler_planilha(mes: str) -> pd.DataFrame:
@@ -285,12 +285,12 @@ def calcula_mes(df_mes, nome_mes):
 
 # ================ TRIMESTRE OU MÊS ================
 if filtro_mes == "TRIMESTRE":
-    df_j, df_a, df_s = [ler_planilha(m) for m in ["JULHO", "AGOSTO", "SETEMBRO"]]
+    df_j, df_a, df_s = [ler_planilha(m) for m in ["OUTUBRO", "NOVEMBRO", "DEZEMBRO"]]
     st.success("✅ Planilhas carregadas (TRIMESTRE)")
     dados_full = pd.concat([
-        calcula_mes(df_j, "JULHO"),
-        calcula_mes(df_a, "AGOSTO"),
-        calcula_mes(df_s, "SETEMBRO")
+        calcula_mes(df_j, "OUTUBRO"),
+        calcula_mes(df_a, "NOVEMBRO"),
+        calcula_mes(df_s, "DEZEMBRO")
     ], ignore_index=True)
 
     group_cols = ["CIDADE", "NOME", "FUNÇÃO", "DATA DE ADMISSÃO", "TEMPO DE CASA"]
@@ -385,4 +385,5 @@ for idx, row in dados_view.iterrows():
         if obs_txt:
             st.caption(f"🗒️ {obs_txt}")
         if perdidos_txt and "100%" not in perdidos_txt:
+
             st.caption(f"🔻 Indicadores não entregues: {perdidos_txt}")
