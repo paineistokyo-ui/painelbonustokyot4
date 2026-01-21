@@ -1,7 +1,7 @@
 {
   "OUTUBRO": {
     "financeiro": false,
-    "qualidade": false,
+    "qualidade": true,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -14,7 +14,7 @@
   },
   "NOVEMBRO": {
     "financeiro": false,
-    "qualidade": false,
+    "qualidade": true,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -27,7 +27,7 @@
   },
   "DEZEMBRO": {
     "financeiro": false,
-    "qualidade": false,
+    "qualidade": true,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -41,4 +41,5 @@
   }
 
 }
+
 
