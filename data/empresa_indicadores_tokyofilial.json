@@ -27,7 +27,7 @@
   },
   "DEZEMBRO": {
     "financeiro": false,
-    "qualidade": true,
+    "qualidade": false,
     "organizacao_da_loja": true,
     "Liderança & Organização": true,
     "producao_por_cidade": {
@@ -41,3 +41,4 @@
   }
 
 }
+
