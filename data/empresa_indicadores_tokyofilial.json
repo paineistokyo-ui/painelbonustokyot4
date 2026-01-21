@@ -1,0 +1,42 @@
+{
+  "OUTUBRO": {
+    "financeiro": false,
+    "qualidade": true,
+    "organizacao_da_loja": true,
+    "Liderança & Organização": true,
+    "producao_por_cidade": {
+      "SANTA INÊS": true,
+      "SÃO JOSÉ DE RIBAMAR": true,
+      "CHAPADINHA": true,
+      "SÃO JOÃO DOS PATOS": true,
+      "BARRA DO CORDA": true
+    }
+  },
+  "NOVEMBRO": {
+    "financeiro": false,
+    "qualidade": true,
+    "organizacao_da_loja": true,
+    "Liderança & Organização": true,
+    "producao_por_cidade": {
+      "SANTA INÊS": true,
+      "SÃO JOSÉ DE RIBAMAR": false,
+      "CHAPADINHA": true,
+      "SÃO JOÃO DOS PATOS": true,
+      "BARRA DO CORDA": false
+    }
+  },
+  "DEZEMBRO": {
+    "financeiro": false,
+    "qualidade": true,
+    "organizacao_da_loja": true,
+    "Liderança & Organização": true,
+    "producao_por_cidade": {
+      "SANTA INÊS": false,
+      "SÃO JOSÉ DE RIBAMAR": true,
+      "PRESIDENTE DUTRA": true,
+      "CHAPADINHA": false,
+      "SÃO JOÃO DOS PATOS": false,
+      "BARRA DO CORDA": true
+    }
+  }
+}
