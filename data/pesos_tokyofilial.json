@@ -27,6 +27,7 @@
     "metas": {
       "Produção": 0.30,
       "Vistorias de 190,00": 0.20,
+      "Qualidade": 0.40,      
       "Treinamento": 0.05,
       "Adesão Pesquisa de Clima": 0.05
     }
@@ -53,6 +54,7 @@
   },
   "_funcoes_excluidas": ["ANALISTA", "SUPERVISOR ANÁLISE"]
 }
+
 
 
 
