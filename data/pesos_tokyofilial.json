@@ -43,7 +43,7 @@
       "Adesão Pesquisa de Clima": 0.05
     }
   },
-  "SERVIÇOS GERAIS": {
+  "SERV GERAIS": {
     "total": 350,
     "metas": {
       "Organização da Loja": 0.70,
@@ -54,6 +54,7 @@
   },
   "_funcoes_excluidas": ["ANALISTA", "SUPERVISOR ANÁLISE"]
 }
+
 
 
 
