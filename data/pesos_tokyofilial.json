@@ -19,7 +19,7 @@
       "Pesquisa de Satisfação": 0.10,
       "Liderança & Organização": 0.05,
       "Recursos Humanos": 0.10,
-      "Qualidade": 0.35
+      "Qualidade": 0.21
     }
   },
   "VISTORIADOR": {
@@ -54,3 +54,4 @@
   },
   "_funcoes_excluidas": ["ANALISTA", "SUPERVISOR ANÁLISE"]
 }
+
